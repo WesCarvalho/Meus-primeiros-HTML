@@ -1,6 +1,32 @@
 /* Estilos da pagina inicial*/
 
+main {
+    text-align: center;
+}
+
 .cover-container figure img{
     width: 100%;
-    
+}
+
+main h3.title {
+    font-size: 1.2em;
+}
+
+main section abbr {
+    color: #25cbd3;
+}
+
+.section-video div iframe{
+    width: 90%;
+}
+
+@media screen and (min-width: 992px) {
+    .cover-container {
+        width: 40%
+    }
+
+    .cover-container,
+    .section-video{
+        display: inline-block;
+    }
 }
